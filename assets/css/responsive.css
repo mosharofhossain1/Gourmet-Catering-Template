@@ -2,4 +2,122 @@
     .headerMenu {
         display: none;
     }
+
+    .cateringImg {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .cateringContentContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .cateringImg img {
+        width: 100%;
+        height: auto;
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cateringContentContainer {
+        display: flex;
+        column-gap: 2%;
+        flex-direction: row;
+    }
+
+    .cateringLeftContent {
+        flex: 48%;
+    }
+
+    .cateringRightContent {
+        flex: 48%;
+        padding: 0px 10px;
+    }
+
+    .cateringContentContainer {
+        padding: 10px;
+    }
+
+    .cateringImg img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cateringRightContent {
+        text-align: justify;
+    }
+
+    .cateringTitle {
+        font-size: 40px;
+        margin: 20px 0px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .cateringSubTitle {
+        font-size: 25px;
+        margin: 10px 0px;
+        letter-spacing: 5px;
+        opacity: .7;
+        text-align: center;
+    }
+
+    .cateringDesc {
+        font-size: 20px;
+        margin: 20px 0px;
+        opacity: .8;
+    }
+
+    .menuSectionContainer {
+        display: flex;
+        gap: 20px;
+    }
+
+    .menuLeftContent {
+        flex: 48%;
+    }
+
+    .menuRightContent {
+        flex: 48%;
+    }
+
+    .catalogImg img {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    .menuSectionContainer {
+        margin: 30px 0px;
+    }
+
+    .menuTitle {
+        font-size: 40px;
+        margin: 30px 0px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .catalogMenus {
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .catagoriMenu {
+        font-size: 25px;
+        margin: 10px 0px;
+        font-weight: bold;
+        opacity: .8;
+        letter-spacing: 5px;
+    }
+
+    .catagoryDesc {
+        font-size: 16px;
+        font-weight: normal;
+        opacity: .7;
+    }
+
 }
