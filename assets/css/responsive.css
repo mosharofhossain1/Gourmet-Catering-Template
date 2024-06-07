@@ -1,5 +1,5 @@
-@media screen and (min-width: 800px) {
-    body {
-        background-color: red;
+@media screen and (max-width : 576px) {
+    .headerMenu {
+        display: none;
     }
 }

@@ -17,4 +17,47 @@ li {
     margin: 0 auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Default css style start */
+
+/* Header section style start */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+    background-color: white;
+}
+
+.headerLogo li a {
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+}
+
+.headerLogo li a:hover {
+    background-color: #ccc;
+}
+
+.headerMenu ul {
+    display: flex;
+}
+
+
+
+.headerMenu ul li a {
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.headerMenu ul li a:hover {
+    background-color: #ccc;
+}
+
+/* Header section style end */
