@@ -172,3 +172,60 @@ hr {
     margin: 20px 0px;
     opacity: .6;
 }
+
+/* Conatac section */
+.contactSection {
+    padding: 30px 10px;
+}
+
+.contactTitle {
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.contactDesc {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.addressContact {
+    font-size: 18px;
+    color: #7A7D8B;
+    margin: 20px 0px;
+}
+
+.inputsContents {
+    margin: 20px 0px;
+}
+
+.inputsContents input {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0px;
+    border: none;
+
+    border-bottom: 1px solid gray;
+}
+
+.inputsContents button {
+    padding: 10px 15px;
+    color: black;
+    background-color: whute;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.inputsContents button:hover {
+    background-color: #ccc;
+}
+
+footer {
+    padding: 40px;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    opacity: .9;
+    font-size: 16px;
+}
